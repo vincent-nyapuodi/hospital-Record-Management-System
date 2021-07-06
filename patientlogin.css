@@ -1,0 +1,163 @@
+.intro{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Healthcare/images/maxresdefault.jpg);
+    height:70vh;
+    padding-top: 80px;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffff;
+}
+.upper{
+    height: 120px;
+    background-color:#156504 ;
+}
+
+.nav{
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.dropbtn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    background-color: #156504;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+.btn:hover{
+    background-color: white;
+    color: #156504;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: white;
+    color: #CBD000;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: #156504;}
+
+
+
+.login-box{
+    width: 500px;
+    height: 450px;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px; 
+    font-size: large;
+}
+
+.details{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px 10px;
+    text-align: left;
+    font-size: 30px;
+    color: #CBD000;
+    float: left;
+    position: relative;
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #CBD000;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.login-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+    
+}
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fff;
+    color: black;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #CBD000;
+    color: #000;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover{
+    color: blue;
+}
+.footer{
+    width: 1000px;
+    background: #000;
+    color: #ffeb99;
+    position: static;
+}

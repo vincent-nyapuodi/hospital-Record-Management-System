@@ -1,0 +1,38 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffff;
+}
+.upper{
+    height: 100px;
+    background-color:#156504 ;
+}
+
+.nav{
+    position: absolute;
+    top: 16%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+
+    h1{
+        margin: 0;
+        padding: 0 0 20px 10px;
+        text-align: left;
+        font-size: 30px;
+        color: #CBD000;
+        float: left;
+        position: relative;
+    }
+    .records {
+        top: 25%;
+        left: 10%;
+        position: absolute;
+        width: 170vh;
+        height: 50vh;
+        padding: 20px;
+        box-shadow: 
+             inset 0 -3em 3em rgba(0,0,0,0.1), 
+                   0 0  0 2px rgb(255,255,255),
+                   0.3em 0.3em 1em rgba(0,0,0,0.3);
+      }

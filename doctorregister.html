@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../Healthcare/patientregister.css">
+
+    <title>Medical Center Records System</title>
+</head>
+
+<body>
+    <div class="Body">
+        <div class="upper">
+            <div style="padding: 25px 0 0 25px;">
+                <h1>Records Office</h1>
+            </div>
+            <div class="nav">
+
+
+                <div class="dropdown">
+                    <a class="dropbtn">Register</a>
+                    <div class="dropdown-content">
+                        <a href="../Healthcare/patientregister.html">Patient</a>
+                        <a href="#">Doctor</a>
+                    </div>
+                </div>
+                <a class="btn" href="../Healthcare/records.php">Records</a>
+                <a class="btn" href="../Healthcare/home.html">Log Out</a>
+
+            </div>
+        </div>
+        <header>
+            <div class="register">
+                    <h2>Doctor Registration Form</h2>
+                <form id="register" action="../Healthcare/staff.php" method="POST" class="details">
+                    <label>Staff No.:</label><br>
+                <input class="p" type="text" name="reg" id="reg" placeholder="Enter Staff no. " required><br><br>
+                <label>First Name:</label><br>
+                <input class="p" type="text" name="fname" id="lname" placeholder="Enter First name " required><br><br>
+                <label>Last Name:</label><br>
+                <input class="p" type="text" name="lname" id="lname" placeholder="Enter Last name" required><br><br>
+                <label>Mobile Number:</label><br>
+                <select  id="ph">
+                    <option>+254</option>
+                    <option>+255</option>
+                    <option>+256</option>
+                    <option>+91</option>
+                </select>
+                <input type="number" name="mnum" id="num" placeholder="Enter phone number" required><br><br>
+                <label>Email:</label>
+                <input class="p" type="email" name="email" id="mail" placeholder="Enter email address" required><br><br>
+                <label>Password:</label><br>
+                <input class="p" type="password" name="password" id="pass" placeholder="Enter password" required><br><br>
+                <label>Re enter Password:</label><br>
+                <input class="p" type="password" name="repassword" id="pass" placeholder="Confirm password" required><br><br>
+                <input type="radio" name="gender" id="male" required>
+                <span id="male">&nbsp;Male</span> 
+                <input type="radio" name="gender" id="female" required> 
+                <span id="female">&nbsp;Female</span><br><br>
+                <input class="p" type="submit" value="submit" id="sub">
+                </form>
+            </div>
+            </header>
+  
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../Healthcare/doctorreport.css">
+
+    <title>Medical Center Records System</title>
+</head>
+
+<body>
+    <div class="Body">
+        <div class="upper">
+            <div style="padding: 25px 0 0 25px;">
+                <h1>Doctor's Report</h1>
+            </div>
+            <div class="nav">
+                <div class="dropdown">
+                    <a class="dropbtn">Service</a>
+                    <div class="dropdown-content">
+                        <a href="../Healthcare/doctorreport.html">Patient-Diagnosis</a>
+                        <a href="../Healthcare/doctorpatientrecords.php">Patient-Records</a>
+                    </div>
+                </div>
+                <a class="btn" href="../Healthcare/home.html">Log Out</a>
+
+            </div>
+        </div>
+    </br>
+        <div class="records">
+            <form id="submit" action="../Healthcare/doctorreport.php" method="POST" class="details">
+                <h2>Patient's Diagnosis Form</h2>
+                <p>Kindly fill out the required field appropriately:</p>
+                <table border="1px" align="center" style="width:300px; line-height:30px;">
+                    <tr>
+                        <th class="tab"colspan="8">Patient Details</th>
+                    </tr>
+                    <tr>
+                        <th>Reg_No.</th>
+                        <th><input class="p" type="text" name="reg" id="reg"required></th>
+                        <th>Patient Name</th>
+                        <th><input class="p" type="text" name="name" id="name"required></th>
+                        <th>Age</th>
+                        <th><input class="p" type="text" name="age" id="age"required></th>
+                        <th>Address</th>
+                        <th><input class="p" type="text" name="address" id="address"required></th>
+
+                    </tr>
+                    <tr>
+                        <th class="tab" colspan="8">Patient Profile</th>
+                    </tr>
+                    <tr>
+                        <th>Blood Group</th>
+                        <th><input class="p" type="text" name="bloodgrp" id="bloodgrp"></th>
+                        <th>Gender</th>
+                        <th><input class="p" type="text" name="gender" id="gender"required></th>
+                        <th>DOB</th>
+                        <th><input class="p" type="text" name="dob" id="dob" placeholder="YYYY-MM-DD" required></th> 
+                        <th>Email</th>
+                        <th><input class="p" type="text" name="email" id="email"required></th> 
+                    </tr>
+                    <tr>
+                        <th class="tab"colspan="8">Diagnosis</th>
+                    </tr>
+                    <tr>
+                        <th style="padding: 10px;"  colspan="8"><input class="p" style="width: 850px; height: 35px;" type="text" name="diag" id="diag"required></th>
+                    </tr>
+                    <tr>
+                        <th class="tab"colspan="8">Prescription</th>
+                    </tr>
+                    <tr>
+                        <th style="padding: 10px;"  colspan="8"><input class="p" style="width: 850px; height: 35px;" type="text" name="presc" id="presc"required></th>
+                    </tr>
+                    <tr>
+                        <th class="tab" colspan="8" >Additional Notes</th>
+                    </tr>
+                    <tr>
+                        <th style="padding: 10px;" colspan="8"><input class="p" style="width: 850px; height: 35px;" type="text" name="add" id="add"required></th>
+                    </tr>
+                    <tr>
+                        <th  class="tab"colspan="2">Doctor's ID</th>
+                        <th style="border: none;"><input class="p" type="text" name="doc" id="doc"required></th> 
+                    </tr>
+                    
+                </table>
+            </br>
+            <div style="position: absolute; top: 90%; left: 10%;">
+                <input class="p" type="submit" value="Add Records" id="sub">
+            </div>
+                
+            </form>
+            
+        </div>
+
+    </div>
+</body>
+
+</html>

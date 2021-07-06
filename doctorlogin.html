@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../Healthcare/doctorlogin.css">
+
+    <title>Medical Center Records System</title>
+</head>
+
+<body>
+    <div class="Body">
+        <div class="upper">
+            <div style="padding: 25px 0 0 25px;">
+                <h1>Doctors Login Panel</h1>
+            </div>
+            <div class="nav">
+                <a class="btn" href="../Healthcare/home.html">Home</a>
+                <a class="btn">About Us</a>
+                <a class="btn">Appointment</a>
+                <div class="dropdown">
+                    <a class="dropbtn">Login</a>
+                    <div class="dropdown-content">
+                        <a href="../Healthcare/patientlogin.html">Patient</a>
+                        <a href="../Healthcare/doctorlogin.html">Doctor</a>
+                    </div>
+                </div>
+                <a class="btn" href="../Healthcare/recordslogin.html">Records</a>
+                <a class="btn">Contact Us</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="intro">
+
+            <div class="login-box">
+
+                <h2>Kindly Login to the site by entering Staff No. and Password</h2>
+                <form action="../Healthcare/doctorlogin.php" method="POST" class="details">
+                    <p>Staff No.</p>
+                    <input type="text" name="reg" id="reg" placeholder="Enter Staff No.">
+                    <p>Password</p>
+                    <input type="password" name="password" id="password" placeholder="Enter Password">
+                    <input type="submit" name="submit" value="Login">
+                    <a href="#">Forgot Password</a></br></br>
+                    <i><p>If you do not have an account, kindly register at the records office</p></i>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
